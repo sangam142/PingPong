@@ -17,6 +17,7 @@ class Paddle:
         return pygame.Rect(self.x, self.y, self.width, self.height)
 
     def auto_track(self, ball, screen_height):
+        # Simple AI: move towards ball's y position
         if ball.y + ball.height/2 < self.y + self.height/2:
             self.move(-self.speed, screen_height)
         elif ball.y + ball.height/2 > self.y + self.height/2:
