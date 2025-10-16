@@ -1,8 +1,9 @@
 import pygame
 from game.game_engine import GameEngine
 
-# Initialize pygame
+# Initialize pygame and mixer for sounds
 pygame.init()
+pygame.mixer.init()  # <-- initialize audio system
 
 # Screen dimensions
 WIDTH, HEIGHT = 800, 600
