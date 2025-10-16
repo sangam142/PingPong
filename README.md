@@ -1,3 +1,15 @@
 File structure
 
-<img width="1216" height="487" alt="image" src="https://github.com/user-attachments/assets/94db759f-538e-4d0d-a3dc-53cffcaa7857" /><img width="1216" height="487" alt="image" src="https://github.com/user-attachments/assets/10ebd2d6-4b47-4609-a102-d7340f872dfb" />
+PingPong/
+├── main.py
+├── assets/
+│   ├── paddle_hit.wav
+│   ├── wall_bounce.wav
+│   └── score.wav
+├── game/
+│   ├── __init__.py
+│   ├── game_engine.py
+│   ├── paddle.py
+│   └── ball.py
+└── README.md
+
